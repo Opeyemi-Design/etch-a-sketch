@@ -1,24 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 960px;
-    max-height: 960px;
+    max-width: 800px;
+    max-height: 800px;
+    border: black solid 2px;
+
 }
 
 button {
+    border: none;
     font-family: sans-serif, arial;
     padding: 12px 40px;
-    background-color: rgb(38, 128, 169);
-    color: aliceblue;
+    background-color: rgb(6, 102, 147);
+    color: rgb(255, 255, 255);
     border-radius: 6px;
-    margin-bottom: 40px;
+    margin: 24px 0px 80px;
 }
 
 .boxes {
     background-color: rgb(255, 255, 255);
-    border: 2px black solid;
-    width: 200px;
-    height: 200px;
   }
 
   .boxes.hovered {
